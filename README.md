@@ -1,7 +1,11 @@
 
 # Book Collection Manager
 
-Aplikasi web untuk mengelola koleksi buku secara sederhana.
+Aplikasi web sederhana untuk mengelola koleksi buku, mulai dari menambahkan, melihat, mengedit, hingga menghapus data buku.
+
+## Screenshot Aplikasi
+
+![Book Collection Manager](screenshots/book-collection-manager.png)
 
 ## Fitur
 
@@ -15,11 +19,8 @@ Aplikasi web untuk mengelola koleksi buku secara sederhana.
 - PHP
 - Laravel
 - Blade
-
-## Screenshot
-
-Screenshot aplikasi akan ditambahkan di bagian ini.
+- Tailwind CSS
 
 ## Status Proyek
 
-Proyek individu untuk portfolio pengembangan web.
+Proyek individu untuk portofolio pengembangan web.
