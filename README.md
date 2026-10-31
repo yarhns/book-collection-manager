@@ -1,26 +1,36 @@
+# 📚 Book Collection Manager
 
-# Book Collection Manager
+Aplikasi web personal untuk mengelola koleksi buku pribadi. Dibangun dengan Laravel dan Tailwind CSS, dilengkapi dengan fitur autentikasi, manajemen kategori, dashboard statistik interaktif, dan **Mode Demo (Read-Only)** untuk pengunjung.
 
-Aplikasi web sederhana untuk mengelola koleksi buku, mulai dari menambahkan, melihat, mengedit, hingga menghapus data buku.
+🔗 **[Live Demo (Segera Hadir)]** | 📂 **[Repositori Ini]**
 
-## Screenshot Aplikasi
+---
 
-![Book Collection Manager](screenshots/book-collection-manager.png)
+## ✨ Fitur Utama
 
-## Fitur
+- 🔐 **Autentikasi Multi-User**: Register dan Login aman menggunakan Laravel Breeze.
+- 📖 **CRUD Buku**: Tambah, lihat, edit (via Pop-up Modal), dan hapus data buku.
+- 🏷️ **Relasi Kategori**: Mengelompokkan buku berdasarkan genre (One-to-Many Relationship).
+- 🔍 **Pencarian & Pagination**: Mencari buku berdasarkan judul/penulis dan navigasi halaman yang rapi.
+- 📊 **Dashboard Statistik**: Menampilkan total buku, kategori, penulis, dan grafik (Doughnut Chart) genre favorit menggunakan Chart.js.
+- 👁️ **Mode Demo (Read-Only)**: Pengunjung dapat mencoba aplikasi dan melihat dashboard tanpa bisa mengubah data (dilindungi oleh Middleware).
+- 🎨 **UI/UX Modern**: Desain responsif, navbar *sticky*, notifikasi interaktif, dan form modal yang elegan.
 
-- Menambahkan buku
-- Melihat daftar buku
-- Mengedit data buku
-- Menghapus buku
+## 🛠️ Teknologi yang Digunakan
 
-## Teknologi
+| Kategori | Teknologi |
+|---|---|
+| **Backend** | Laravel 12, PHP 8.2 |
+| **Database** | MySQL |
+| **Frontend** | Blade, Tailwind CSS, Alpine.js |
+| **Library Tambahan** | Chart.js (Grafik), FontAwesome (Ikon) |
+| **Autentikasi** | Laravel Breeze |
 
-- PHP
-- Laravel
-- Blade
-- Tailwind CSS
+## 🚀 Cara Menjalankan di Lokal
 
-## Status Proyek
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
 
-Proyek individu untuk portofolio pengembangan web.
+1. **Clone repositori ini:**
+   ```bash
+   git clone https://github.com/yarhns/book-collection-manager.git
+   cd book-collection-manager
